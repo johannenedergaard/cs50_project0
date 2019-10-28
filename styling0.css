@@ -1,0 +1,73 @@
+body {
+    background: #AABD8C;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:0;
+    font-size: 18px;
+    text-align: center;
+}
+
+header {
+    background: #52838C;
+    color: #381D2A;
+    margin: 0;
+}
+
+header h1 {
+    color: #F39B6D;
+    margin: 0;
+    display: inline;
+    padding: 20px;
+    font-size: 60px;
+}
+nav ul {
+    margin: 0;
+    display: inline;
+    padding: 20px 20px 20px 0px;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.recipe {
+    background-color:#E9E3B4;
+    margin-left:auto;
+    margin-top:auto;  
+    width: 100%;
+    text-align: center;
+    border: 5px dashed #F39B6D;
+    position: absolute;
+}
+
+.recipe td, tr, th {
+    padding: 5px;
+    width: 100%;
+    border: 3px solid black;
+}
+
+#footer {
+    font-size: 18px;
+    text-align: end;
+}
+
+/* the color scheme is:
+pale green #AABD8C
+aubergine #381D2A
+beige ish #E9E3B4
+teal #52838C
+salmon #F39B6D */
