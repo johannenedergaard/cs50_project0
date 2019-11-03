@@ -65,6 +65,18 @@ h2 {
     text-align: end;
 }
 
+@media (min-width:500px) {
+    .mobile_only {
+        display:none;
+    }
+}
+
+@media (max-width:499px) {
+    * {
+        font-size:18px;
+    }
+}
+
 /* the color scheme is:
 pale green #AABD8C
 aubergine #381D2A
